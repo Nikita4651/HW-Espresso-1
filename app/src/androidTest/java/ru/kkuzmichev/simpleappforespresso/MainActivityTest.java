@@ -28,7 +28,7 @@ public class MainActivityTest  {
     @Test
     public void testName() {
         ViewInteraction mainText = onView(
-                withId(R.id.toolbar)
+                withId(R.id.text_home)
         );
         mainText.check(
                 matches(

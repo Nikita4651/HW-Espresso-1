@@ -33,15 +33,15 @@ public class ExampleInstrumentedTest  {
 //            new ActivityTestRule<>(MainActivity.class);
 
 
-    @Test
-    public void testName() {
-        ViewInteraction mainText = onView(
-                withId(R.id.toolbar)
-        );
-        mainText.check(
-                matches(
-                        withText("This is home fragment")
-                )
-        );
-    }
+//    @Test
+//    public void testName() {
+//        ViewInteraction mainText = onView(
+//                withId(R.id.toolbar)
+//        );
+//        mainText.check(
+//                matches(
+//                        withText("This is home fragment")
+//                )
+//        );
+//    }
 }
